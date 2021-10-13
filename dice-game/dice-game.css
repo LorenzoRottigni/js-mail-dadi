@@ -1,0 +1,10 @@
+.dice{
+    height: 250px;
+    width: 250px;
+    background-color: lightgray;
+}
+i{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
