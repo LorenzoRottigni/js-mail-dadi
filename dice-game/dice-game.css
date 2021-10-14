@@ -8,3 +8,6 @@ i{
     width: 50%;
     text-align: center;
 }
+.container{
+    max-width: 900px;
+}

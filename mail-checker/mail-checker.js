@@ -8,7 +8,7 @@ button.addEventListener("click", function(){
     let accessGranted;
     for (let i = 0; i < whiteList.length && !accessGranted; i++) {
         const whiteListMail = whiteList[i];
-        if(mailInput.value === whiteListMail){
+        if(mailInput.value.toLowerCase() === whiteListMail.toLowerCase()){
             outputContainer.style.setProperty('display', 'block', 'important');
             outputTarget.textContent = 'access granted for '+ mailInput.value;
             accessGranted = true
